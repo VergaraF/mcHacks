@@ -1,0 +1,25 @@
+{
+  "name": "smsme",
+  "version": "1.0.0",
+  "description": "a sms 411 as a service",
+  "main": "smsme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VergaraF/mcHacks.git"
+  },
+  "keywords": [
+    "sms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VergaraF/mcHacks/issues"
+  },
+  "homepage": "https://github.com/VergaraF/mcHacks#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
