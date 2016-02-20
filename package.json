@@ -2,7 +2,7 @@
   "name": "smsme",
   "version": "1.0.0",
   "description": "a sms 411 as a service",
-  "main": "smsme.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
