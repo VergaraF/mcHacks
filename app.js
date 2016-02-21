@@ -54,7 +54,7 @@ app.post('/sms', function(req, res) {
 	    }
 	});
 
-/*	var got  = require('got'),
+  	var got  = require('got'),
     util = require('util'),
     fs   = require('fs'),
     SSML_TPL = '<speak version="1.0" xml:lang="en-us">' +
@@ -87,9 +87,9 @@ var tokenParams = [
           'Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)',
           message);
 
-        console.log('---- Oxford Access Token ----------------------------------3-');
+        console.log('---- Oxford Access Token -----------------------------------');
         console.log(res.access_token);
-       console.log('-----------------------------------------------------------3-');
+       console.log('------------------------------------------------------------');
 
       //
       // Now we can invoke the Text-To-Speech API passing in some text to be 
