@@ -18,25 +18,20 @@ app.use(bodyParser.urlencoded({
 
 // Twilio request authentication with custom URL
 app.post('/sms', function(req, res) {
-	 var options = { url: 'http://smsme2.us-east-1.elasticbeanstalk.com/sms'};
-    if (twilio.validateExpressRequest(req, AUTH_TOKEN, options)) {
-        client.sendMessage({
-		    to: TEST_PHONE, 
-		    from: TWILIO_PHONE, 
-		    body: "Hello World " + req.Body 
-		}, function(err, responseData) { 
+	var message = req.body.Body;
+    twilio.sendMessage({
+	    to: TEST_PHONE, 
+	    from: TWILIO_PHONE, 
+	    body: message
+	}, function(err, responseData) { 
 
-		    if (!err) {
-		        console.log(responseData.from); 
-		        console.log(responseData.body); 
-		    }
-		});
-		
-		res.type('text/xml');
-		res.send('Something worked!!');
-    } else {
-        res.status(403).send('you are not twilio. Buzz off.');
-    }
+	    if (!err) {
+	        console.log(responseData.from); 
+	        console.log(responseData.body); 
+	    }
+	});
+	res.type('text/xml');
+	res.send(req.body.Body);
 });
 
 // Start an HTTP server with this Express app
