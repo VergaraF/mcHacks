@@ -20,9 +20,9 @@ cfg.secret = process.env.APP_SECRET || 'keyboard cat';
 // A good practice is to store these string values as system environment
 // variables, and load them from there as we are doing below. Alternately,
 // you could hard code these values here as strings.
-cfg.accountSid = 'AC336fb1664da1a7d3de5cbcf4bbe5ba3a';
-cfg.authToken = '30b201bfe0053ca9884a9c891463c871';
-cfg.sendingNumber = '+14387937806';
+cfg.accountSid = 'AC332a4111136723617783087ad398967d';
+cfg.authToken = '2fd2fe7642db69b49ab773a30feb950a';
+cfg.sendingNumber = '+14387937502';
 
 var requiredConfig = [cfg.accountSid, cfg.authToken, cfg.sendingNumber];
 var isConfigured = requiredConfig.every(function(configValue) {
