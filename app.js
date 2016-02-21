@@ -18,6 +18,12 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+app.use('/static', express.static(__dirname + '/static'));
+
+app.get('/', function(req, res) {
+	res.sendFile(__dirname + '/index.html');
+});
+
 // Twilio request authentication with custom URL
 app.post('/sms', function(req, res) {
 	var message = req.body.Body;
