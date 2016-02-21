@@ -1,8 +1,8 @@
-var APPLICATION_SID = 'PN85796b5ebbeb36f057ff3f7d5332f980';
-var ACCOUNT_SID = 'AC332a4111136723617783087ad398967d';
-var AUTH_TOKEN = '2fd2fe7642db69b49ab773a30feb950a';
-var TWILIO_PHONE = '+14387937502';
-var TEST_PHONE = '+15149534295';
+//var APPLICATION_SID = 'PN85796b5ebbeb36f057ff3f7d5332f980';
+var ACCOUNT_SID = 'AC336fb1664da1a7d3de5cbcf4bbe5ba3a';
+var AUTH_TOKEN = '30b201bfe0053ca9884a9c891463c871';
+var TWILIO_PHONE = '+14387937806';
+var TEST_PHONE = '+15142913224';
 
 var express = require('express'),
     bodyParser = require('body-parser'),
