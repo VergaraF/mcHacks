@@ -10,7 +10,7 @@ var express = require('express'),
     path = require('path'),
     twilio = require('twilio')(ACCOUNT_SID, AUTH_TOKEN);
 
-var tripAdvisor = require('tripadv');
+//var tripAdvisor = require('tripadv');
 
 var app = express();
 
@@ -41,6 +41,30 @@ app.post('/sms', function(req, res) {
 	res.type('text/xml');
 	res.send(req.body.Body);
 });
+
+
+// Twilio request authentication with custom URL
+app.post('/getstarted', function(req, res) {
+	var phoneNumber = req.body.telephone;
+	if (phoneNumber) {
+		var message = "Hey! How are you? I want to thank you for using the service. If you can use the command help to get started."
+	    twilio.sendMessage({
+		    to: TEST_PHONE, 
+		    from: TWILIO_PHONE, 
+		    body: message
+		}, function(err, responseData) { 
+			res.send(req.body.Body);
+				    if (!err) {
+				        console.log(responseData.from); 
+				        console.log(responseData.body); 
+				    }
+				});
+	   	res.redirect('/');
+	}
+	res.type('text/xml');
+	res.send(req.body.Body);
+});
+
 
 // Start an HTTP server with this Express app
 app.listen(process.env.PORT || 3000);

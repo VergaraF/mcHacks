@@ -1,0 +1,40 @@
+#blast {
+	background-image: url('../img/blast.jpg');
+	height: 600px;
+	background-position: bottom;
+}
+
+#blast > div {
+	height: 100%;
+}
+
+#blast_text {
+	color: white;
+	width: 100%;
+}
+
+#blast2 {
+	background-color: $primary-color;
+	padding-top: 50px;
+	color: white;
+}
+
+#blast2 button {
+	width: 100%;
+}
+
+#commands {
+	padding-top: 50px;
+}
+
+.send-icon {
+	color: $secondary-color;
+}
+
+.sms-title {
+	font-weight: bold;
+}
+
+footer.page-footer {
+	background-color: $secondary-color;
+}

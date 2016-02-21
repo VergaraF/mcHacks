@@ -1,0 +1,191 @@
+/*******************************************************************************
+/*						CLASSES USED FOR THE PROGRESSBARS
+/******************************************************************************/
+
+.progress62	{background:url(../images/progressbars/progressbar.png) -1px -1px;width:62px;height:8px;display:inline-block;}
+.progress62_0	{background-position:-1px -1px;}
+.progress62_5	{background-position:-1px -10px;}
+.progress62_10	{background-position:-1px -19px;}
+.progress62_15	{background-position:-1px -28px;}
+.progress62_20	{background-position:-1px -37px;}
+.progress62_25	{background-position:-1px -46px;}
+.progress62_30	{background-position:-1px -55px;}
+.progress62_35	{background-position:-1px -64px;}
+.progress62_40	{background-position:-1px -73px;}
+.progress62_45	{background-position:-1px -82px;}
+.progress62_50	{background-position:-1px -91px;}
+.progress62_55	{background-position:-1px -100px;}
+.progress62_60	{background-position:-1px -109px;}
+.progress62_65	{background-position:-1px -118px;}
+.progress62_70	{background-position:-1px -127px;}
+.progress62_75	{background-position:-1px -136px;}
+.progress62_80	{background-position:-1px -145px;}
+.progress62_85	{background-position:-1px -154px;}
+.progress62_90	{background-position:-1px -163px;}
+.progress62_95	{background-position:-1px -172px;}
+.progress62_100	{background-position:-1px -181px;}
+
+.progress66		{background:url(../images/progressbars/progressbar.png) -64px -1px;width:66px;height:8px;display:inline-block;}
+.progress66_0	{background-position:-64px -1px;}
+.progress66_5	{background-position:-64px -10px;}
+.progress66_10	{background-position:-64px -19px;}
+.progress66_15	{background-position:-64px -28px;}
+.progress66_20	{background-position:-64px -37px;}
+.progress66_25	{background-position:-64px -46px;}
+.progress66_30	{background-position:-64px -55px;}
+.progress66_35	{background-position:-64px -64px;}
+.progress66_40	{background-position:-64px -73px;}
+.progress66_45	{background-position:-64px -82px;}
+.progress66_50	{background-position:-64px -91px;}
+.progress66_55	{background-position:-64px -100px;}
+.progress66_60	{background-position:-64px -109px;}
+.progress66_65	{background-position:-64px -118px;}
+.progress66_70	{background-position:-64px -127px;}
+.progress66_75	{background-position:-64px -136px;}
+.progress66_80	{background-position:-64px -145px;}
+.progress66_85	{background-position:-64px -154px;}
+.progress66_90	{background-position:-64px -163px;}
+.progress66_95	{background-position:-64px -172px;}
+.progress66_100	{background-position:-64px -181px;}
+
+.progress102	{background:url(../images/progressbars/progressbar.png) -131px -1px;width:102px;height:7px;display:inline-block;}
+.progress102_0	{background-position:-131px -1px;}
+.progress102_5	{background-position:-131px -9px;}
+.progress102_10	{background-position:-131px -17px;}
+.progress102_15	{background-position:-131px -25px;}
+.progress102_20	{background-position:-131px -33px;}
+.progress102_25	{background-position:-131px -41px;}
+.progress102_30	{background-position:-131px -49px;}
+.progress102_35	{background-position:-131px -57px;}
+.progress102_40	{background-position:-131px -65px;}
+.progress102_45	{background-position:-131px -73px;}
+.progress102_50	{background-position:-131px -81px;}
+.progress102_55	{background-position:-131px -89px;}
+.progress102_60	{background-position:-131px -97px;}
+.progress102_65	{background-position:-131px -105px;}
+.progress102_70	{background-position:-131px -113px;}
+.progress102_75	{background-position:-131px -121px;}
+.progress102_80	{background-position:-131px -129px;}
+.progress102_85	{background-position:-131px -137px;}
+.progress102_90	{background-position:-131px -145px;}
+.progress102_95	{background-position:-131px -153px;}
+.progress102_100{background-position:-131px -161px;}
+
+.progress53		{background:url(../images/progressbars/progressbar.png) -234px -1px;width:53px;height:7px;display:inline-block;}
+.progress53_0	{background-position:-234px -1px;}
+.progress53_5	{background-position:-234px -9px;}
+.progress53_10	{background-position:-234px -17px;}
+.progress53_15	{background-position:-234px -25px;}
+.progress53_20	{background-position:-234px -33px;}
+.progress53_25	{background-position:-234px -41px;}
+.progress53_30	{background-position:-234px -49px;}
+.progress53_35	{background-position:-234px -57px;}
+.progress53_40	{background-position:-234px -65px;}
+.progress53_45	{background-position:-234px -73px;}
+.progress53_50	{background-position:-234px -81px;}
+.progress53_55	{background-position:-234px -89px;}
+.progress53_60	{background-position:-234px -97px;}
+.progress53_65	{background-position:-234px -105px;}
+.progress53_70	{background-position:-234px -113px;}
+.progress53_75	{background-position:-234px -121px;}
+.progress53_80	{background-position:-234px -129px;}
+.progress53_85	{background-position:-234px -137px;}
+.progress53_90	{background-position:-234px -145px;}
+.progress53_95	{background-position:-234px -153px;}
+.progress53_100	{background-position:-234px -161px;}
+
+.progress248	{background:url(../images/progressbars/progressbar.png) -288px -1px;width:248px;height:18px;display:inline-block;}
+.progress248_0	{background-position:-288px -1px;}
+.progress248_5	{background-position:-288px -20px;}
+.progress248_10	{background-position:-288px -39px;}
+.progress248_15	{background-position:-288px -58px;}
+.progress248_20	{background-position:-288px -77px;}
+.progress248_25	{background-position:-288px -96px;}
+.progress248_30	{background-position:-288px -115px;}
+.progress248_35	{background-position:-288px -134px;}
+.progress248_40	{background-position:-288px -153px;}
+.progress248_45	{background-position:-288px -172px;}
+.progress248_50	{background-position:-288px -191px;}
+.progress248_55	{background-position:-288px -210px;}
+.progress248_60	{background-position:-288px -229px;}
+.progress248_65	{background-position:-288px -248px;}
+.progress248_70	{background-position:-288px -267px;}
+.progress248_75	{background-position:-288px -286px;}
+.progress248_80	{background-position:-288px -305px;}
+.progress248_85	{background-position:-288px -324px;}
+.progress248_90	{background-position:-288px -343px;}
+.progress248_95	{background-position:-288px -362px;}
+.progress248_100{background-position:-288px -381px;}
+
+.progress221	{background:url(../images/progressbars/progressbar.png) -1px -1px;width:221px;height:6px;display:inline-block;}
+.progress221_0	{background-position:-1px -227px;}
+.progress221_5	{background-position:-1px -234px;}
+.progress221_10	{background-position:-1px -241px;}
+.progress221_15	{background-position:-1px -248px;}
+.progress221_20	{background-position:-1px -255px;}
+.progress221_25	{background-position:-1px -262px;}
+.progress221_30	{background-position:-1px -269px;}
+.progress221_35	{background-position:-1px -276px;}
+.progress221_40	{background-position:-1px -283px;}
+.progress221_45	{background-position:-1px -290px;}
+.progress221_50	{background-position:-1px -297px;}
+.progress221_55	{background-position:-1px -304px;}
+.progress221_60	{background-position:-1px -311px;}
+.progress221_65	{background-position:-1px -318px;}
+.progress221_70	{background-position:-1px -325px;}
+.progress221_75	{background-position:-1px -332px;}
+.progress221_80	{background-position:-1px -339px;}
+.progress221_85	{background-position:-1px -346px;}
+.progress221_90	{background-position:-1px -353px;}
+.progress221_95	{background-position:-1px -360px;}
+.progress221_100{background-position:-1px -367px;}
+
+.progress330	{background:url(../images/progressbars/progressbar.png) -536px -1px;width:330px;height:30px;display:inline-block;}
+.progress330_0	{background-position:-536px -1px;}
+.progress330_5	{background-position:-536px -32px;}
+.progress330_10	{background-position:-536px -63px;}
+.progress330_15	{background-position:-536px -94px;}
+.progress330_20	{background-position:-536px -125px;}
+.progress330_25	{background-position:-536px -156px;}
+.progress330_30	{background-position:-536px -187px;}
+.progress330_35	{background-position:-536px -218px;}
+.progress330_40	{background-position:-536px -249px;}
+.progress330_45	{background-position:-536px -280px;}
+.progress330_50	{background-position:-536px -311px;}
+.progress330_55	{background-position:-536px -342px;}
+.progress330_60	{background-position:-536px -373px;}
+.progress330_65	{background-position:-536px -404px;}
+.progress330_70	{background-position:-536px -435px;}
+.progress330_75	{background-position:-536px -466px;}
+.progress330_80	{background-position:-536px -497px;}
+.progress330_85	{background-position:-536px -528px;}
+.progress330_90	{background-position:-536px -559px;}
+.progress330_95	{background-position:-536px -590px;}
+.progress330_100{background-position:-536px -621px;}
+.progress_330_credits {float:left;margin:4px 0 0 13px;text-align:right;color:white;}
+.progress_330_credits > #progress_bar_q {font-size:14px;}
+.progress330_0 .progress_330_credits {color:#646464;}
+.progress_330_max_credits {float:right;font-size:11px;margin-top:10px;color:#2E3A5F;}
+
+.progress352	{background:url(../images/progressbars/progressbar.png) -1px -408px;width:352px;height:8px;display:inline-block;}
+.progress352_0	{background-position:-1px -408px;}
+.progress352_5	{background-position:-1px -417px;}
+.progress352_10	{background-position:-1px -426px;}
+.progress352_15	{background-position:-1px -435px;}
+.progress352_20	{background-position:-1px -444px;}
+.progress352_25	{background-position:-1px -453px;}
+.progress352_30	{background-position:-1px -462px;}
+.progress352_35	{background-position:-1px -471px;}
+.progress352_40	{background-position:-1px -480px;}
+.progress352_45	{background-position:-1px -489px;}
+.progress352_50	{background-position:-1px -498px;}
+.progress352_55	{background-position:-1px -507px;}
+.progress352_60	{background-position:-1px -516px;}
+.progress352_65	{background-position:-1px -525px;}
+.progress352_70	{background-position:-1px -534px;}
+.progress352_75	{background-position:-1px -543px;}
+.progress352_80	{background-position:-1px -552px;}
+.progress352_85	{background-position:-1px -561px;}
+.progress352_90	{background-position:-1px -570px;}
+.progress352_95	{background-position:-1px -579px;}
+.progress352_100{background-position:-1px -588px;}

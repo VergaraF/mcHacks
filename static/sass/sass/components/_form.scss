@@ -9,7 +9,7 @@ button:focus {
 
 label {
   font-size: $label-font-size;
-  color: $input-border-color;
+  color: #fff;
 }
 
 /***************************
@@ -80,7 +80,7 @@ textarea.materialize-textarea {
   }
   // Focused label style
   &:focus:not([readonly])+label {
-    color: $input-focus-color;
+    color: #fff;
   }
   // Valid Input Style
   &.valid,

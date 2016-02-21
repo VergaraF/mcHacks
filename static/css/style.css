@@ -1,0 +1,18 @@
+#blast {
+	background-image: url('../img/blast.jpg');
+	height: 500px;
+	background-position: bottom;
+}
+
+#blast > div {
+	height: 100%;
+}
+
+#blast_text {
+	color: white;
+	width: 100%;
+}
+
+#blast2 {
+	padding-top: 50px;
+}
