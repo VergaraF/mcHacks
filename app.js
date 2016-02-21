@@ -31,13 +31,28 @@ app.post('/sms', function(req, res) {
 
 
     // COMMAND PARSER
-    var evalString = message.toLowerCase(); //"Find me pizza Near 6644 Fielding In Montreal".toLowerCase();
-    //var evalString = "Find me 5801891".toLowerCase();
-    // var evalString = "HeLP!!!!!".toLowerCase();
+    var evalString = message.toLowerCase(); 
 
-    //var evalString = "HElp!".toLowerCase();
     if(evalString.search("help") != -1) {
-        console.log("SEND HELP INFO");
+
+        // SEND BACK HELP COMMANDS
+        var helpCommands = "Welcome to SMSME \n Here is a commands to get started: \n Find Me (foodChoice) Near (Address) In (City) ";
+        twilio.sendMessage({
+            to: TEST_PHONE, 
+            from: TWILIO_PHONE, 
+            body: helpCommands
+            }, function(err, responseData) { 
+
+                if (!err) {
+                    console.log(responseData.from); 
+                    console.log(responseData.body); 
+                }
+            });
+
+            res.type('text/xml');
+            res.send(req.body.Body);
+
+        // console.log("SEND HELP INFO");
     }
 
     else if(evalString.search("near") == -1) {
@@ -48,7 +63,6 @@ app.post('/sms', function(req, res) {
 
     
         url = "http://api.tripadvisor.com/api/partner/2.0/location/" + locationID + "?key=" + TRIPADVISOR_KEY;
-        //console.log(url);
 
         request({
             url: url,
