@@ -17,11 +17,17 @@
 	background-color: $primary-color;
 	padding-top: 50px;
 	color: white;
+	height: 600px;
 }
 
 #blast2 button {
 	width: 100%;
 }
+
+#teleform {
+	margin-top: 150px;
+}
+
 
 #commands {
 	padding-top: 50px;
@@ -33,6 +39,10 @@
 
 .sms-title {
 	font-weight: bold;
+}
+
+#showblast {
+	width: 450px;
 }
 
 footer.page-footer {

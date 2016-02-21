@@ -7035,10 +7035,14 @@ select {
 #blast2 {
   background-color: #1E88E5;
   padding-top: 50px;
-  color: white; }
+  color: white;
+  height: 600px; }
 
 #blast2 button {
   width: 100%; }
+
+#teleform {
+  margin-top: 150px; }
 
 #commands {
   padding-top: 50px; }
@@ -7048,6 +7052,9 @@ select {
 
 .sms-title {
   font-weight: bold; }
+
+#showblast {
+  width: 450px; }
 
 footer.page-footer {
   background-color: #e91e63; }
