@@ -5,10 +5,10 @@ SMSMe (the name of the app) is an application developed by Fabian Vergara, Steve
 
 Anyone can chat with our bot using SMS, and the bot will be able to retrieve information asked by the user. In the future, we intend to make our BOT smarter by not using commands but texting him as you would text someone. The goal is to implement an intelligent bot who is capable to have a conversation (voice or text) with someone regardless their internet connection and device they are texting/calling from.
 
-Technologies use:
-Node JS
-Express
-Twilio
-Tripadvisor
+Technologies used:
+Node JS/n
+Express/n
+Twilio/n
+Tripadvisor/n
 MS Azure: Speech/Text recognition 
 
